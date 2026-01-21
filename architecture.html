@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICS Security Hub | Architecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ICS Security Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="threats.html">Threats</a></li>
+                <li><a href="architecture.html" class="active">Architecture</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>The Purdue Model Architecture</h2>
+            <p>The Purdue Model is the industry standard for segmenting Industrial Control Systems (ICS) from the corporate network.</p>
+            
+            <div style="background-color: white; padding: 20px; border-radius: 8px;">
+                <h3>The 5 Levels of Security</h3>
+                <dl>
+                    <dt><strong>Level 4 & 5: Enterprise Network</strong></dt>
+                    <dd>The corporate office environment where email, web servers, and business systems reside.</dd>
+                    <hr>
+                    <dt><strong>Level 3.5: DMZ (Demilitarized Zone)</strong></dt>
+                    <dd>The critical buffer zone where security systems and firewalls separate the plant from the office.</dd>
+                    <hr>
+                    <dt><strong>Level 3: Operations Systems</strong></dt>
+                    <dd>Systems that monitor and control the entire plant, such as HMI (Human Machine Interfaces).</dd>
+                    <hr>
+                    <dt><strong>Level 2: Control Systems</strong></dt>
+                    <dd>The "brains" of the operation, including PLCs (Programmable Logic Controllers).</dd>
+                    <hr>
+                    <dt><strong>Level 0-1: Field Zone</strong></dt>
+                    <dd>The physical devices: sensors, motors, and valves that do the actual work.</dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jackeline Brooks | TM470 & CI Project</p>
+    </footer>
+</body>
+</html>

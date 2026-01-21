@@ -1,0 +1,110 @@
+/* Professional Styles for ICS Security Hub */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #00274c; /* Navy Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #ffcb05; /* Gold accent line */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: #ffcb05; /* Gold on hover */
+    color: #00274c;
+}
+
+/* Main Content Area */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Purdue Level Styling */
+dt {
+    background-color: #00274c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+dd {
+    margin: 10px 0 20px 20px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Highlight the active page */
+.active {
+    background-color: #ffcb05 !important;
+    color: #00274c !important;
+}
+/* --- RESPONSIVE DESIGN (MOBILE) --- */
+
+/* This triggers when the screen is 600px wide or less */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stacks Home, Threats, Architecture vertically */
+        padding: 10px 0;
+    }
+
+    nav li a {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+
+    main {
+        margin: 10px; /* Makes the white card fit the phone screen */
+        padding: 15px;
+    }
+
+    /* Makes the Purdue table scrollable so it doesn't "break" the phone screen */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
