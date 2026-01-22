@@ -11,7 +11,7 @@ A professional web resource dedicated to the security and architecture of Indust
 | **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | ✅ Pass |
 | **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | ✅ Pass |
 | **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | ✅ Pass |
-| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) | 🚀 Optimized |
+| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) |  Optimized |
 
 ---
 
