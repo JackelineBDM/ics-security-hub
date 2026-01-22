@@ -15,7 +15,7 @@ A professional web resource dedicated to the security and architecture of Indust
 
 ---
 
-## 📱 User Stories
+##  User Stories
 
 * **Plant Manager:** Needs a clear visual breakdown of network layers to understand where security investments (firewalls/segmentation) are required.
 * **Security Engineer:** Needs a mobile-responsive resource to verify ICS security best practices while on the factory floor.
@@ -38,7 +38,7 @@ To ensure a user-centric layout, I created wireframes for Desktop and Mobile vie
 
 ![Project Wireframes](wireframes.png)
 
-## 🛠️ Deployment
+##  Deployment
 The site was deployed via GitHub Pages:
 1.  Source: Main Branch.
 2.  Directory: /root.
