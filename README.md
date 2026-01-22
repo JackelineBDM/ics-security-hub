@@ -1,23 +1,30 @@
 # ICS Security Hub
 
+A professional web resource dedicated to the security and architecture of Industrial Control Systems (ICS).
+
 **Live Site:** [View Project Here](https://jackelinebdm.github.io/ics-security-hub/)
 
-## Technical Quality Scorecard
+## Technical Quality Scorecard (Google Lighthouse)
+
 | Category | Score | Status |
 | :--- | :--- | :--- |
 | **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
 | **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | Pass |
 | **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | Pass |
+| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) | Optimized |
 
 ---
 
-## Project Overview
-Following the Code Institute Milestone 1 requirements, this is a three-page static website built with semantic HTML5 and CSS3. It serves as an educational hub for Industrial Control Systems (ICS) security and Operational Technology (OT) protection.
+## Project Highlights
+- Framework: Pure Semantic HTML5 & CSS3
+- Compliance: 100% W3C Validated Markup
+- Design: Mobile-First Responsive Architecture
+- Version Control: Managed via GitHub
 
-### **Site Structure (3-Page Architecture)**
-1. **Home:** Executive overview of ICS risks and the project mission.
-2. **Architecture:** Detailed breakdown of the Purdue Model and network segmentation.
-3. **Threats:** Analysis of common attack vectors and mitigation strategies.
+## Core Modules (3-Page Structure)
+- **Home:** Executive overview of ICS security and the importance of OT protection.
+- **Architecture:** Deep dive into the Purdue Model and Network Segmentation.
+- **Threats:** Analysis of common attack vectors and mitigation strategies.
 
 ---
 
@@ -36,8 +43,8 @@ The site is architected around the Purdue Model for Industrial Control Systems. 
 
 ![Purdue Model Architecture](images/Purdue_Model_Reference.png)
 
-### **Wireframes**
-I created low-fidelity wireframes in Figma for both Mobile and Desktop views. This allowed for the planning of responsive behavior and semantic structure prior to the development phase.
+### **Design: Wireframes**
+To plan the responsive layout, I created wireframes for Desktop and Mobile views using Figma. 
 
 ![Project Wireframes](images/wireframes.png)
 
@@ -51,6 +58,6 @@ I created low-fidelity wireframes in Figma for both Mobile and Desktop views. Th
 ---
 
 ## Credits and Attribution
-* **Content:** Based on NIST SP 800-82 standards for Industrial Control System security.
-* **Images:** Purdue Model visualization adapted from Palo Alto Networks.
-* **Educational Context:** Developed for the Code Institute Milestone 1 Project.
+* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com).
+* **Technical Content:** Standards derived from [NIST SP 800-82](https://doi.org/10.6028/NIST.SP.800-82r3) and [NIST SP 1800-10](https://doi.org/10.6028/NIST.SP.1800-10).
+* **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
