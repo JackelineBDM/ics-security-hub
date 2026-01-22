@@ -41,12 +41,12 @@ The project follows a structured design process to ensure technical and visual c
 ### **The Purdue Model**
 The site is architected around the Purdue Model for Industrial Control Systems. This model ensures that information is segmented logically, reflecting real-world industrial network hierarchies.
 
-![Purdue Model Architecture](images/Purdue_Model_Reference.png)
+![Purdue Model Architecture](./images/Purdue_Model_Reference.png)
 
 ### **Design: Wireframes**
 To plan the responsive layout, I created wireframes for Desktop and Mobile views using Figma. 
 
-![Project Wireframes](images/wireframes.png)
+![Project Wireframes](./images/wireframes.png)
 
 ---
 
