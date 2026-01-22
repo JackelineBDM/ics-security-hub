@@ -26,3 +26,12 @@ A professional web resource dedicated to the security and architecture of Indust
 
 ---
 *Developed as part of the TM470 / CI Project - Milestone 1.*
+
+## Design: Wireframes
+To plan the responsive layout, I created wireframes for Desktop and Mobile views using Figma. 
+
+![Project Wireframes](wireframes.png)
+
+## Credits and Attribution
+* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com/cyberpedia/what-is-the-purdue-model-for-ics-security).
+* **Technical Content:** Standards derived from [NIST SP 800-82](https://doi.org/10.6028/NIST.SP.800-82r3) and [NIST SP 1800-10](https://doi.org/10.6028/NIST.SP.1800-10).
