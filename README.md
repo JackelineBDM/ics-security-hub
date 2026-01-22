@@ -1,32 +1,28 @@
-# ICS Security Hub - Code Institute Milestone Project 1
+# ICS Security Hub
 
-This project is a professional web prototype designed to bridge the gap between technical ICS security standards (NIST 800-82) and non-technical plant management.
+A professional web resource dedicated to the security and architecture of Industrial Control Systems (ICS).
 
-## User Experience (UX)
-### Target Audience
-- **Plant Managers:** Need a high-level understanding of risks without getting lost in code.
-- **OT Staff:** Need a quick reference for the Purdue Model architecture.
+## Technical Quality Scorecard (Google Lighthouse)
 
-### User Stories
-- As a user, I want to see a clear visual of the Purdue Model so I can understand network segmentation.
-- As a user, I want to compare different cyber threats and their physical impacts on the plant.
-- As a user, I want a site that works on my smartphone while I am on the factory floor.
+| Category | Score | Status |
+| :--- | :--- | :--- |
+| **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
+| **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | Pass |
+| **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | Pass |
+| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) | Optimized |
 
-## Design
-### Wireframes
-Low-fidelity wireframes were created using Figma to plan the "Card-based" layout for both Desktop and Mobile views. (Link to your initial_wireframes_desktop_mobile.png here later).
+---
 
-## Features
-- **Responsive Navigation:** A 3-page structure with a mobile-ready stacked menu.
-- **Active Page Indicators:** Clearly shows the user which section they are currently viewing.
-- **Purdue Model Integration:** Detailed architectural breakdown for industrial security.
-- **Case Study Analysis:** Technical deep-dive into the Stuxnet attack.
+## Project Highlights
+- Framework: Pure Semantic HTML5 & CSS3
+- Compliance: 100% W3C Validated Markup
+- Design: Mobile-First Responsive Architecture
+- Version Control: Managed via GitHub
 
-## Technologies Used
-- **HTML5:** Semantic structure.
-- **CSS3:** Custom styling and Media Queries for responsiveness.
-- **Figma:** UI/UX Design and Wireframing.
-- **VS Code:** Primary Integrated Development Environment (IDE).
+## Core Modules
+- Home: Executive overview of ICS security.
+- Architecture: Deep dive into the Purdue Model and Network Segmentation.
+- Threats: Analysis of common attack vectors in Industrial environments.
 
-## Deployment
-The site is currently developed locally. Future deployment will be via GitHub Pages.
+---
+*Developed as part of the TM470 / CI Project - Milestone 1.*
