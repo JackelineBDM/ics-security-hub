@@ -1,50 +1,56 @@
-# ICS Security Hub 
+# ICS Security Hub
 
-A professional web resource dedicated to the security and architecture of Industrial Control Systems (ICS), designed to bridge the gap between technical standards and industrial management.
+**Live Site:** [View Project Here](https://jackelinebdm.github.io/ics-security-hub/)
 
-**Live Site:** [View ICS Security Hub here](https://jackelinebdm.github.io/ics-security-hub/)
-
-## Technical Quality Scorecard (Google Lighthouse)
-
+## Technical Quality Scorecard
 | Category | Score | Status |
 | :--- | :--- | :--- |
-| **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | ✅ Pass |
-| **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | ✅ Pass |
-| **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | ✅ Pass |
-| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) |  Optimized |
+| **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
+| **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | Pass |
+| **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | Pass |
 
 ---
 
-##  User Stories
+## Project Overview
+Following the Code Institute Milestone 1 requirements, this is a three-page static website built with semantic HTML5 and CSS3. It serves as an educational hub for Industrial Control Systems (ICS) security and Operational Technology (OT) protection.
 
-* **Plant Manager:** Needs a clear visual breakdown of network layers to understand where security investments (firewalls/segmentation) are required.
-* **Security Engineer:** Needs a mobile-responsive resource to verify ICS security best practices while on the factory floor.
-
-##  Project Highlights
-- **Framework:** Pure Semantic HTML5 & CSS3 for maximum compatibility.
-- **Compliance:** 100% W3C Validated Markup.
-- **Design:** Mobile-First Responsive Architecture using CSS Flexbox.
-- **Version Control:** Managed via GitHub with a documented audit trail.
-
-##  Core Modules
-- **Home:** Executive overview of ICS security and the importance of OT protection.
-- **Architecture:** Deep dive into the Purdue Model and Network Segmentation.
-- **Threats:** Analysis of common attack vectors and mitigation strategies in Industrial environments.
+### **Site Structure (3-Page Architecture)**
+1. **Home:** Executive overview of ICS risks and the project mission.
+2. **Architecture:** Detailed breakdown of the Purdue Model and network segmentation.
+3. **Threats:** Analysis of common attack vectors and mitigation strategies.
 
 ---
 
-##  Design: Wireframes
-To ensure a user-centric layout, I created wireframes for Desktop and Mobile views using Figma. This blueprint guided the semantic structure of the HTML.
+## User Experience (UX)
+The site was developed according to UX principles and user story requirements:
+* **As a Plant Manager:** I want to see a high-level visual of network layers to understand where security investments are required.
+* **As a Security Engineer:** I want a mobile-responsive resource to verify security best practices while on the factory floor.
 
-![Project Wireframes](wireframes.png)
+---
 
-##  Deployment
-The site was deployed via GitHub Pages:
-1.  Source: Main Branch.
-2.  Directory: /root.
-3.  Verification: Verified via Google Lighthouse on the live production URL.
+## Design and Architecture
+The project follows a structured design process to ensure technical and visual clarity.
 
-##  Credits and Attribution
-* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com).
-* **Technical Content:** Standards derived from [NIST SP 800-82](https://doi.org/10.6028/NIST.SP.800-82r3).
-* **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
+### **The Purdue Model**
+The site is architected around the Purdue Model for Industrial Control Systems. This model ensures that information is segmented logically, reflecting real-world industrial network hierarchies.
+
+![Purdue Model Architecture](images/Purdue_Model_Reference.png)
+
+### **Wireframes**
+I created low-fidelity wireframes in Figma for both Mobile and Desktop views. This allowed for the planning of responsive behavior and semantic structure prior to the development phase.
+
+![Project Wireframes](images/wireframes.png)
+
+---
+
+## Technologies and Deployment
+* **Languages:** HTML5, CSS3.
+* **Tools:** VS Code, GitHub Desktop, Figma, Google Lighthouse.
+* **Hosting:** Deployed via GitHub Pages.
+
+---
+
+## Credits and Attribution
+* **Content:** Based on NIST SP 800-82 standards for Industrial Control System security.
+* **Images:** Purdue Model visualization adapted from Palo Alto Networks.
+* **Educational Context:** Developed for the Code Institute Milestone 1 Project.
