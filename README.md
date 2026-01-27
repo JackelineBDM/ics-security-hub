@@ -70,7 +70,7 @@ For all technical testing results and validator screenshots, please refer to the
 ---
 
 ## Credits and Attribution
-* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com/).
+* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com/cyberpedia/what-is-the-purdue-model-for-ics-security).
 * **Tools:** [Website Mockup Generator](https://websitemockupgenerator.com/) was used to create the responsive design preview.
-* **Technical Content:** Standards derived from [NIST SP 800-82](https://csrc.nist.gov/pubs/sp/800/82/r3/fp) and [NIST SP 1800-10](https://www.nccoe.nist.gov/projects/protecting-information-and-system-integrity-industrial-control-systems).
+* **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
 * **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
