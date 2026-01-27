@@ -70,7 +70,7 @@ For all technical testing results and validator screenshots, please refer to the
 ---
 
 ## Credits and Attribution
-* **Media:** Purdue Model diagram adapted from Palo Alto Networks.
+* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com/).
 * **Tools:** [Website Mockup Generator](https://websitemockupgenerator.com/) was used to create the responsive design preview.
-* **Technical Content:** Standards derived from NIST SP 800-82 and NIST SP 1800-10.
-* **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
+* **Technical Content:** Standards derived from [NIST SP 800-82](https://csrc.nist.gov/pubs/sp/800/82/r3/fp) and [NIST SP 1800-10](https://www.nccoe.nist.gov/projects/protecting-information-and-system-integrity-industrial-control-systems).
+* **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
