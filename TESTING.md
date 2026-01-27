@@ -1,5 +1,7 @@
 # Testing - ICS Security Hub
 
+Below is the detailed evidence for the scores reported in the README.
+
 ## HTML Validation
 The following images show the W3C validation results for the HTML pages, confirming zero errors across the project.
 

@@ -4,6 +4,10 @@ A professional web resource dedicated to the security and architecture of Indust
 
 **Live Site:** [View Project Here](https://jackelinebdm.github.io/ics-security-hub/)
 
+## Responsive Design Preview
+The ICS Security Hub is designed to be fully responsive across all modern devices.
+
+![Website Mockup](./images/website_mockup.png)
 ## Technical Quality Scorecard (Google Lighthouse)
 
 | Category | Score | Status |
