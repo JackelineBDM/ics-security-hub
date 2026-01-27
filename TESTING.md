@@ -1,43 +1,27 @@
 # Testing - ICS Security Hub
 
-## Validator Testing
-- **HTML:** 100% W3C Validated (No errors).
-- **CSS:** Passed Jigsaw Validator.
+## HTML Validation
+The following images show the W3C validation results for the HTML pages, confirming zero errors across the project.
 
-## Lighthouse Performance
-I used Google Lighthouse to verify the quality of the site.
-- **Accessibility:** 100%
-- **Best Practices:** 100%
-- **Performance:** 99%
+### W3C Validation Pass for Index
+![W3C Validation Pass for Index](images/W3C_Index_Pass.png)
 
-### Lighthouse Scorecard
-![Lighthouse Score](https://img.shields.io/badge/Lighthouse-99%25-brightgreen)
+### W3C Validation Pass for Architecture
+![W3C Validation Pass for Architecture](images/W3C_architecture_Pass.png)
 
----
-
-## Manual Testing
-
-### Navigation
-All links in the navbar (Home, Architecture, Threats) work correctly and navigate to the correct sections/pages.
-
-### Responsiveness
-Verified on Chrome DevTools across various devices (iPhone, iPad, Desktop). 
-- The layout adjusts using Flexbox.
-- No horizontal scrolling occurs on mobile.
-
-### Image Scaling
-All images scale correctly and remain sharp on high-resolution displays.
-
-#### Purdue Model Reference
-![Purdue Model Architecture](./images/Purdue_Model_Reference.png)
-
-#### Wireframe Verification
-![Project Wireframes](./images/wireframes.png)
+### W3C Validation Pass for Threats
+![W3C Validation Pass for Threats](images/W3C_Threats_Pass.png)
 
 ---
 
-## Browser Compatibility
-Tested and confirmed working on:
-- Google Chrome
-- Mozilla Firefox
-- Safari (iOS)
+## Lighthouse Scores
+The following images show the Lighthouse performance scores, confirming high standards for Accessibility and Best Practices.
+
+### Lighthouse Score for Home Mobile
+![Lighthouse Score for Home Mobile](images/Lighthouse_Home_Mobile.jpg)
+
+### Lighthouse Score for Architecture
+![Lighthouse Score for Architecture](images/Lighthouse_Architecture_100.jpg)
+
+### Lighthouse Score for Threats
+![Lighthouse Score for Threats](images/Lighthouse_Threats_100.jpg)
