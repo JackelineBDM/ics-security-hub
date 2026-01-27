@@ -1,4 +1,4 @@
-# ICS Security Hub
+# ICS Security Hub 
 
 A professional web resource dedicated to the security and architecture of Industrial Control Systems (ICS).
 
@@ -15,38 +15,41 @@ A professional web resource dedicated to the security and architecture of Indust
 
 ---
 
-## Project Highlights
-- Framework: Pure Semantic HTML5 & CSS3
-- Compliance: 100% W3C Validated Markup
-- Design: Mobile-First Responsive Architecture
-- Version Control: Managed via GitHub
+## UX (The 5 Planes)
 
-## Core Modules (3-Page Structure)
-- **Home:** Executive overview of ICS security and the importance of OT protection.
-- **Architecture:** Deep dive into the Purdue Model and Network Segmentation.
-- **Threats:** Analysis of common attack vectors and mitigation strategies.
+### 1. Strategy Plane
+**Goal:** To provide a professional web resource for ICS security professionals to understand the Purdue Model and OT protection.
+- **User Needs:** Quick access to security standards (NIST) and architectural models.
+- **Business Goal:** Build a high-performance, accessible information hub.
+
+### 2. Scope Plane
+**Features Included:**
+- 3-Page Structure (Home, Architecture, Threats).
+- Purdue Model Reference Gallery.
+- Responsive Navigation Bar.
+
+### 3. Structure Plane
+**Information Architecture:**
+- **Level 1:** Home (Executive overview of ICS security).
+- **Level 2:** Architecture (Deep dive into the Purdue Model).
+- **Level 3:** Threats (Analysis of common attack vectors).
+
+### 4. Skeleton Plane
+**Wireframes:**
+I used Figma to design mobile-first layouts, ensuring technical diagrams remain clear on small screens.
+![Project Wireframes](./images/wireframes.png)
+
+### 5. Surface Plane
+**Visual Design:**
+- **Colors:** Professional dark-theme palette for high contrast.
+- **Typography:** Clean sans-serif fonts for technical clarity.
+- **Key Diagram:** ![Purdue Model Architecture](./images/Purdue_Model_Reference.png)
 
 ---
 
-## User Experience (UX)
-The site was developed according to UX principles and user story requirements:
+## User Stories
 * **As a Plant Manager:** I want to see a high-level visual of network layers to understand where security investments are required.
 * **As a Security Engineer:** I want a mobile-responsive resource to verify security best practices while on the factory floor.
-
----
-
-## Design and Architecture
-The project follows a structured design process to ensure technical and visual clarity.
-
-### **The Purdue Model**
-The site is architected around the Purdue Model for Industrial Control Systems. This model ensures that information is segmented logically, reflecting real-world industrial network hierarchies.
-
-![Purdue Model Architecture](./images/Purdue_Model_Reference.png)
-
-### **Design: Wireframes**
-To plan the responsive layout, I created wireframes for Desktop and Mobile views using Figma. 
-
-![Project Wireframes](./images/wireframes.png)
 
 ---
 
@@ -57,7 +60,12 @@ To plan the responsive layout, I created wireframes for Desktop and Mobile views
 
 ---
 
+## Testing
+For all technical testing results and validator screenshots, please refer to the [TESTING.md](TESTING.md) file.
+
+---
+
 ## Credits and Attribution
-* **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com).
-* **Technical Content:** Standards derived from [NIST SP 800-82](https://doi.org/10.6028/NIST.SP.800-82r3) and [NIST SP 1800-10](https://doi.org/10.6028/NIST.SP.1800-10).
+* **Media:** Purdue Model diagram adapted from Palo Alto Networks.
+* **Technical Content:** Standards derived from NIST SP 800-82 and NIST SP 1800-10.
 * **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
