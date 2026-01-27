@@ -70,6 +70,8 @@ For all technical testing results and validator screenshots, please refer to the
 ---
 
 ## Credits and Attribution
+## Credits and Attribution
 * **Media:** Purdue Model diagram adapted from Palo Alto Networks.
+* **Tools:** [Website Mockup Generator](https://websitemockupgenerator.com/) was used to create the responsive design preview.
 * **Technical Content:** Standards derived from NIST SP 800-82 and NIST SP 1800-10.
 * **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
