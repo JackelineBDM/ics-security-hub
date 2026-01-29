@@ -107,4 +107,28 @@ footer {
         overflow-x: auto;
         white-space: nowrap;
     }
+    /* --- TM470 Project Scope Box --- */
+.scope-container {
+    background-color: #f0f7ff;
+    border-left: 6px solid #007bff;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.scope-title {
+    color: #0056b3;
+    margin-top: 0;
+    font-size: 1.25rem;
+}
+
+.scope-out {
+    border-top: 1px solid #d0e3ff;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #444;
+}
 }
