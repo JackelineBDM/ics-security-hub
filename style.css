@@ -84,13 +84,14 @@ footer {
 
 /* --- GLOBAL SCOPE BOX (Works on all screens) --- */
 .scope-container {
-    background-color: #f0f7ff;
-    border-left: 6px solid #007bff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
+    background-color: #d1e9ff; /* Stronger Blue */
+    border-left: 8px solid #0056b3; /* Thicker Darker Blue Line */
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
     line-height: 1.6;
     text-align: left;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05); /* Adds a soft shadow */
 }
 
 .scope-title {
