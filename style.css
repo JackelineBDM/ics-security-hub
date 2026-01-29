@@ -81,12 +81,38 @@ footer {
     background-color: #ffcb05 !important;
     color: #00274c !important;
 }
-/* --- RESPONSIVE DESIGN (MOBILE) --- */
 
-/* This triggers when the screen is 600px wide or less */
+/* --- GLOBAL SCOPE BOX (Works on all screens) --- */
+.scope-container {
+    background-color: #f0f7ff;
+    border-left: 6px solid #007bff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.scope-title {
+    color: #0056b3;
+    margin-top: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.scope-out {
+    border-top: 1px solid #d0e3ff;
+    padding-top: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #d9534f; /* Red for 'Out of Scope' */
+}
+
+/* --- RESPONSIVE DESIGN (MOBILE ONLY) --- */
+
 @media (max-width: 600px) {
     nav ul {
-        flex-direction: column; /* Stacks Home, Threats, Architecture vertically */
+        flex-direction: column; 
         padding: 10px 0;
     }
 
@@ -97,38 +123,13 @@ footer {
     }
 
     main {
-        margin: 10px; /* Makes the white card fit the phone screen */
+        margin: 10px; 
         padding: 15px;
     }
 
-    /* Makes the Purdue table scrollable so it doesn't "break" the phone screen */
     table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
-    /* --- TM470 Project Scope Box --- */
-.scope-container {
-    background-color: #f0f7ff;
-    border-left: 6px solid #007bff;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    border-radius: 4px;
-    font-family: sans-serif;
-    text-align: left;
-}
-
-.scope-title {
-    color: #0056b3;
-    margin-top: 0;
-    font-size: 1.25rem;
-}
-
-.scope-out {
-    border-top: 1px solid #d0e3ff;
-    padding-top: 10px;
-    margin-top: 10px;
-    font-style: italic;
-    color: #444;
-}
 }
