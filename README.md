@@ -74,3 +74,9 @@ For all technical testing results and validator screenshots, please refer to the
 * **Tools:** [Website Mockup Generator](https://websitemockupgenerator.com/) was used to create the responsive design preview.
 * **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
 * **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
+
+## Recent Updates & Bug Fixes
+* **Mobile UI:** Fixed navigation bar overlapping content by adjusting CSS `z-index`.
+* **Broken Links:** Restored hyperlink functionality on the Purdue Model reference graphic.
+* **Accessibility:** Updated color contrast on "Out of Scope" callouts to meet WCAG standards.
+* **Layout:** Resolved alignment issues in the Security Level (SL 2) requirement tables.
