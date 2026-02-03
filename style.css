@@ -33,7 +33,7 @@ nav ul {
 nav li a {
     display: block;
     color: white;
-    padding: 16px 25px; /* Accessibility fix: Larger tap target */
+    padding: 16px 24px; /* Essential for Accessibility */
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
@@ -80,6 +80,7 @@ dd {
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: white;
     margin: 20px 0;
 }
 
@@ -90,7 +91,8 @@ th, td {
 }
 
 th {
-    background-color: #eee;
+    background-color: #f2f2f2;
+    color: #00274c;
 }
 
 footer {
@@ -136,7 +138,7 @@ footer {
 
     nav li a {
         text-align: center;
-        padding: 20px; /* Accessibility fix: Even larger for mobile fingers */
+        padding: 18px; /* Makes links big enough for thumbs on mobile */
         border-bottom: 1px solid #444;
     }
 
