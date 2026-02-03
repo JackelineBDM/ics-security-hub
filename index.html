@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICS Security Hub | Home</title>
+    <meta name="description" content="A professional resource for ICS security architecture, covering the Purdue Model and OT threats.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,24 +25,24 @@
             <p>Welcome to the ICS Security Hub. This site helps plant managers understand NIST 800-82 and the Purdue Model.</p>
         
             <div class="scope-container">
-    <h3 class="scope-title">Project Scope & Continuity</h3>
-    <p>This Hub is an <strong>Evaluative Prototype</strong> designed to assist plant management in navigating NIST and IEC standards. To ensure maximum portability and a zero-attack surface for the tool itself, this version is built as a <strong>Static Reference Site</strong>.</p>
-    <p class="scope-out"><strong>Out of Scope:</strong> This prototype does not utilize backend databases, user authentication, or live industrial sensor integration.</p>
-</div>
+                <h3 class="scope-title">Project Scope & Continuity</h3>
+                <p>This Hub is an <strong>Evaluative Prototype</strong> designed to assist plant management in navigating NIST and IEC standards. To ensure maximum portability and a zero-attack surface for the tool itself, this version is built as a <strong>Static Reference Site</strong>.</p>
+                <p class="scope-out"><strong>Out of Scope:</strong> This prototype does not utilize backend databases, user authentication, or live industrial sensor integration.</p>
+            </div>
         </section>
 
         <section id="visual">
             <h2>The Purdue Model</h2>
             <figure>
-                <img src="images/Purdue_Model_Reference.png" alt="Diagram of the Purdue Model" style="width:100%; max-width:600px;">
+                <img src="images/Purdue_Model_Reference.png" alt="Diagram of the Purdue Model showing levels 0 through 5" style="width:100%; max-width:600px;">
                 <figcaption>Source: Palo Alto Networks Reference</figcaption>
-            </figure> <div style="background-color: #f4f4f4; padding: 15px; border-left: 5px solid #0056b3; margin-top: 10px;">
+            </figure> 
+            <div style="background-color: #f4f4f4; padding: 15px; border-left: 5px solid #0056b3; margin-top: 10px;">
                 <h3>Implementation of IEC 62443: Zones & Conduits</h3>
                 <p>
                     In this architecture, each level of the Purdue Model is defined as a separate <strong>Security Zone</strong>. 
                     Following <strong>IEC 62443</strong> standards, communication between these zones is restricted to defined 
-                    <strong>Conduits</strong> (firewalls and gateways). This prevents lateral movement of threats from the 
-                    Enterprise network to the physical plant floor.
+                    <strong>Conduits</strong> (firewalls and gateways).
                 </p>
             </div>
         </section>

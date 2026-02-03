@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICS Security Hub | Threats</title>
+    <meta name="description" content="Detailed analysis of primary cyber threat vectors targeting Industrial Control Systems and OT environments.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,27 +24,27 @@
             <h2>Cyber Threats to Industrial Control Systems</h2>
             <p>Unlike standard IT environments, ICS threats can result in physical consequences. Below is a summary of primary threat vectors:</p>
             
-            <table border="1" style="width:100%; border-collapse: collapse; background-color: white;">
+            <table>
                 <thead>
-                    <tr style="background-color: #eee;">
-                        <th style="padding: 10px;">Threat Type</th>
-                        <th style="padding: 10px;">Description</th>
-                        <th style="padding: 10px;">Impact Example</th>
+                    <tr>
+                        <th>Threat Type</th>
+                        <th>Description</th>
+                        <th>Impact Example</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="padding: 10px;"><strong>Ransomware</strong></td>
+                        <td><strong>Ransomware</strong></td>
                         <td>Malicious software that encrypts critical data.</td>
                         <td>Operational shutdown (e.g., Colonial Pipeline).</td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px;"><strong>Insider Threat</strong></td>
+                        <td><strong>Insider Threat</strong></td>
                         <td>Unauthorized actions by employees or contractors.</td>
                         <td>Unauthorized set-point changes in a PLC.</td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px;"><strong>Phishing</strong></td>
+                        <td><strong>Phishing</strong></td>
                         <td>Deceptive emails used to steal credentials.</td>
                         <td>Initial access to the Level 4 Enterprise network.</td>
                     </tr>
@@ -52,14 +53,14 @@
 
             <section id="case-study">
                 <h2>Case Study: Stuxnet (2010)</h2>
-                <p>Stuxnet remains the most significant example of a "Cyber-Physical" attack. It specifically targeted Siemens PLC (Programmable Logic Controllers) used in uranium enrichment centrifuges.</p>
+                <p>Stuxnet specifically targeted Siemens PLC (Programmable Logic Controllers) used in uranium enrichment centrifuges.</p>
                 
                 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #00274c; margin-top: 10px;">
                     <h3>Why it matters for Managers:</h3>
                     <ul>
-                        <li><strong>Air-Gap Bypass:</strong> It proved that systems not connected to the internet can still be infected via USB drives.</li>
-                        <li><strong>Physical Destruction:</strong> It didn't just steal data; it physically destroyed hardware by manipulating motor speeds.</li>
-                        <li><strong>Stealth:</strong> The malware hid its presence by sending "Normal" status signals to the operators while the machines were failing.</li>
+                        <li><strong>Air-Gap Bypass:</strong> Infection can happen via USB drives.</li>
+                        <li><strong>Physical Destruction:</strong> Malware can physically destroy hardware.</li>
+                        <li><strong>Stealth:</strong> Malware can hide by sending "Normal" status signals.</li>
                     </ul>
                 </div>
             </section>
@@ -67,12 +68,8 @@
             <section style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #d9534f; margin-top: 20px;">
                 <h3>Target Security Level (SL)</h3>
                 <p>
-                    To protect Critical National Infrastructure (CNI), this hub is designed to support organizations in achieving 
+                    This hub is designed to support organizations in achieving 
                     <strong>Security Level 2 (SL 2)</strong> according to the <strong>IEC 62443-3-3</strong> standard. 
-                </p>
-                <p>
-                    This focuses on protecting against <strong>intentional but simple</strong> cyberattacks by actors with 
-                    low resources and generic skills. This serves as the essential baseline for modern Industrial Control Systems.
                 </p>
             </section>
         </section>
@@ -80,7 +77,7 @@
 
     <footer>
         <p>&copy; 2026 Jackeline Brooks Marcano | PI: E3413858</p>
-        <p><em>Academic Disclaimer: This website is a baseline prototype for the TM470 Computing and IT Project (Cyber Security Route). It maps NIST SP 800-82 and IEC 62443 standards to Industrial Control Systems.</em></p>
+        <p><em>Academic Disclaimer: This website is a baseline prototype for the TM470 Computing and IT Project (Cyber Security Route).</em></p>
     </footer>
 </body>
 </html>

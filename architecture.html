@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICS Security Hub | Architecture</title>
+    <meta name="description" content="Explore the Purdue Model architecture and implementation of IEC 62443 security zones.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,39 +25,34 @@
             <p>The Purdue Model is the industry standard for segmenting Industrial Control Systems (ICS) from corporate IT networks.</p>
             
             <div class="level">
-                <h3>Level 4 & 5: Enterprise Network</h3>
-                <p>The corporate layer where business functions like email and ERP systems reside. This is the most common entry point for cyber threats.</p>
+                <dt>Level 4 & 5: Enterprise Network</dt>
+                <dd>The corporate layer where business functions like email and ERP systems reside.</dd>
             </div>
 
             <div class="level">
-                <h3>Level 3.5: Industrial DMZ (IDMZ)</h3>
-                <p>A critical buffer zone that prevents direct communication between the enterprise and the production floor.</p>
+                <dt>Level 3.5: Industrial DMZ (IDMZ)</dt>
+                <dd>A critical buffer zone that prevents direct communication between enterprise and production.</dd>
             </div>
 
             <div class="level">
-                <h3>Level 3: Operations Systems</h3>
-                <p>Site-wide control systems, including HMI (Human Machine Interfaces) and data historians.</p>
+                <dt>Level 3: Operations Systems</dt>
+                <dd>Site-wide control systems, including HMI and data historians.</dd>
             </div>
 
             <div class="level">
-                <h3>Level 2: Control Systems</h3>
-                <p>Local supervisory controls and engineering workstations that manage the physical processes.</p>
+                <dt>Level 2: Control Systems</dt>
+                <dd>Local supervisory controls and engineering workstations.</dd>
             </div>
 
             <div class="level">
-                <h3>Level 0-1: Field Zone</h3>
-                <p>The physical equipment, including sensors, actuators, and PLCs (Programmable Logic Controllers).</p>
+                <dt>Level 0-1: Field Zone</dt>
+                <dd>The physical equipment, including sensors, actuators, and PLCs.</dd>
             </div>
 
             <section style="background-color: #f4f4f4; padding: 15px; border-left: 5px solid #0056b3; margin-top: 20px;">
                 <h3>Implementation of IEC 62443: Zones & Conduits</h3>
                 <p>
-                    Following <strong>IEC 62443</strong> standards, each level above is treated as a separate <strong>Security Zone</strong>. 
-                    Communication between these zones is strictly controlled through <strong>Conduits</strong>.
-                </p>
-                <p>
-                    By implementing an <strong>IDMZ at Level 3.5</strong>, we create a conduit that ensures no "dual-homed" 
-                    servers exist, effectively stopping a breach in the Enterprise network from reaching the Field Zone.
+                    Following <strong>IEC 62443</strong> standards, each level is a separate <strong>Security Zone</strong>. 
                 </p>
             </section>
         </section>
@@ -64,7 +60,7 @@
 
     <footer>
         <p>&copy; 2026 Jackeline Brooks Marcano | PI: E3413858</p>
-        <p><em>Academic Disclaimer: This website is a baseline prototype for the TM470 Computing and IT Project (Cyber Security Route). It maps NIST SP 800-82 and IEC 62443 standards to Industrial Control Systems.</em></p>
+        <p><em>Academic Disclaimer: This website is a baseline prototype for the TM470 Computing and IT Project (Cyber Security Route).</em></p>
     </footer>
 </body>
 </html>

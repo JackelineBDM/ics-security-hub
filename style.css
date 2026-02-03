@@ -9,11 +9,11 @@ body {
 }
 
 header {
-    background-color: #00274c; /* Navy Blue */
+    background-color: #00274c; 
     color: white;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 4px solid #ffcb05; /* Gold accent line */
+    border-bottom: 4px solid #ffcb05; 
 }
 
 /* Navigation Bar */
@@ -33,14 +33,14 @@ nav ul {
 nav li a {
     display: block;
     color: white;
-    padding: 14px 20px;
+    padding: 16px 25px; /* Accessibility fix: Larger tap target */
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav li a:hover {
-    background-color: #ffcb05; /* Gold on hover */
+    background-color: #ffcb05; 
     color: #00274c;
 }
 
@@ -69,6 +69,23 @@ dd {
     font-style: italic;
 }
 
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -76,28 +93,23 @@ footer {
     color: #666;
 }
 
-/* Highlight the active page */
 .active {
     background-color: #ffcb05 !important;
     color: #00274c !important;
 }
 
-/* --- GLOBAL SCOPE BOX (Works on all screens) --- */
+/* Scope Box */
 .scope-container {
-    background-color: #d1e9ff; /* Stronger Blue */
-    border-left: 8px solid #0056b3; /* Thicker Darker Blue Line */
+    background-color: #d1e9ff;
+    border-left: 8px solid #0056b3;
     padding: 25px;
     margin: 30px 0;
     border-radius: 8px;
-    line-height: 1.6;
-    text-align: left;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.05); /* Adds a soft shadow */
 }
 
 .scope-title {
     color: #0056b3;
     margin-top: 0;
-    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -106,31 +118,23 @@ footer {
     padding-top: 10px;
     margin-top: 15px;
     font-weight: bold;
-    color: #d9534f; /* Red for 'Out of Scope' */
+    color: #d9534f;
 }
 
-/* --- RESPONSIVE DESIGN (MOBILE ONLY) --- */
-
+/* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column; 
-        padding: 10px 0;
     }
 
     nav li a {
         text-align: center;
-        padding: 10px;
+        padding: 20px; /* Accessibility fix: Even larger for mobile fingers */
         border-bottom: 1px solid #444;
-    }
-
-    main {
-        margin: 10px; 
-        padding: 15px;
     }
 
     table {
         display: block;
         overflow-x: auto;
-        white-space: nowrap;
     }
 }
