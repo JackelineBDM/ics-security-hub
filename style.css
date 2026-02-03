@@ -55,17 +55,24 @@ main {
 }
 
 /* Purdue Level Styling */
+/* Purdue Level Styling - Corrected for DL structure */
+dl {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 dt {
     background-color: #00274c;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 15px; 
     display: inline-block;
+    font-weight: bold;
 }
 
 dd {
-    margin: 10px 0 20px 20px;
+    margin: 5px 0 15px 0; 
     font-style: italic;
 }
 
