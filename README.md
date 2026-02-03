@@ -14,8 +14,8 @@ The ICS Security Hub is designed to be fully responsive across all modern device
 | :--- | :--- | :--- |
 | **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
 | **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | Pass |
-| **Performance** | ![99%](https://img.shields.io/badge/Performance-99%25-brightgreen) | Pass |
-| **SEO** | ![91%](https://img.shields.io/badge/SEO-91%25-blue) | Optimized |
+| **Performance** | ![100%](https://img.shields.io/badge/Performance-100%25-brightgreen) | Pass |
+| **SEO** | ![100%](https://img.shields.io/badge/SEO-100%25-brightgreen) | Pass |
 
 ---
 
@@ -65,7 +65,15 @@ I used Figma to design mobile-first layouts, ensuring technical diagrams remain 
 ---
 
 ## Testing
-For all technical testing results and validator screenshots, please refer to the [TESTING.md](TESTING.md) file.
+
+I have performed rigorous manual and automated testing to ensure the ICS Security Hub is fully functional and compliant with W3C standards.
+
+* **Automated Testing:** The site achieves 100% scores across all Google Lighthouse categories.
+* **Validation:** All HTML and CSS files have been validated through the W3C Nu HTML Checker and Jigsaw Validator with zero errors.
+* **Manual Testing:** Verified all navigation links, external resource links, and responsive layouts on multiple devices.
+
+> [!IMPORTANT]
+> For the full testing report, including all validator screenshots and detailed manual test cases, please refer to the **[TESTING.md](TESTING.md)** file.
 
 ---
 
@@ -75,8 +83,11 @@ For all technical testing results and validator screenshots, please refer to the
 * **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
 * **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
 
+---
+
 ## Recent Updates & Bug Fixes
 * **Mobile UI:** Fixed navigation bar overlapping content by adjusting CSS `z-index`.
-* **Broken Links:** Restored hyperlink functionality on the Purdue Model reference graphic.
-* **Accessibility:** Updated color contrast on "Out of Scope" callouts to meet WCAG standards.
+* **Accessibility:** Updated color contrast and increased navigation padding to meet WCAG touch-target standards.
+* **Semantic HTML:** Refactored Architecture page to use `dl` (Description Lists) instead of `divs` for full W3C compliance.
 * **Layout:** Resolved alignment issues in the Security Level (SL 2) requirement tables.
+* **Tables:** Implemented responsive CSS styling for the Threats table to improve readability on mobile.
