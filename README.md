@@ -59,7 +59,7 @@ I used Figma to design mobile-first layouts, ensuring technical diagrams remain 
 
 ## Technologies and Deployment
 * **Languages:** HTML5, CSS3.
-* **Tools:** VS Code, GitHub Desktop, Figma, Google Lighthouse.
+* **Tools:** VS Code, GitHub Desktop, Figma, Google Lighthouse, [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 * **Hosting:** Deployed via GitHub Pages.
 
 ---
