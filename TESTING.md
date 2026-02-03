@@ -27,3 +27,8 @@ The following images show the Lighthouse performance scores for the pages.
 
 ### Lighthouse Score for Threats
 ![Threats Lighthouse](images/Lighthouse_Threats_100.png)
+
+### W3C CSS Validator
+I validated the `style.css` file using the W3C Jigsaw Validator. It passed with no errors.
+
+![CSS Validation Result](images/css-validation.png)
