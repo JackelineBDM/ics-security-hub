@@ -33,7 +33,7 @@ nav ul {
 nav li a {
     display: block;
     color: white;
-    padding: 16px 24px; /* Essential for Accessibility */
+    padding: 16px 24px; 
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
@@ -54,11 +54,13 @@ main {
     border-radius: 8px;
 }
 
-/* Purdue Level Styling */
-/* Purdue Level Styling - Corrected for DL structure */
+/* ADVANCED TECHNIQUE: CSS Grid for Purdue levels */
+/* This replaces the old list style with a modern, flexible grid */
 dl {
-    margin-left: 0;
-    padding-left: 0;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 10px;
+    margin: 20px 0;
 }
 
 dt {
@@ -66,14 +68,42 @@ dt {
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
-    margin-top: 15px; 
-    display: inline-block;
     font-weight: bold;
+    align-self: start;
 }
 
 dd {
-    margin: 5px 0 15px 0; 
+    margin: 0 0 10px 0; 
     font-style: italic;
+    padding: 5px;
+}
+
+/* REFACTORED BOXES (Formerly inline styles) */
+.info-box {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #0056b3;
+    margin-top: 10px;
+}
+
+.case-study-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #00274c;
+    margin-top: 10px;
+}
+
+.sl-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #d9534f;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 /* Table Styling */
@@ -132,13 +162,17 @@ footer {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
+    dl {
+        grid-template-columns: 1fr; /* Stack grid on mobile */
+    }
+    
     nav ul {
         flex-direction: column; 
     }
 
     nav li a {
         text-align: center;
-        padding: 18px; /* Makes links big enough for thumbs on mobile */
+        padding: 18px; 
         border-bottom: 1px solid #444;
     }
 

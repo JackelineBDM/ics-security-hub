@@ -32,3 +32,12 @@ The following images show the Lighthouse performance scores for the pages.
 I validated the `style.css` file using the W3C Jigsaw Validator. It passed with no errors.
 
 ![CSS Validation Result](images/css-validation.png)
+
+## Manual Test Cases & Evaluation
+
+| Feature | Test Performed | Expected Result | Actual Result | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **Navigation** | Clicked all links in header. | Smooth transition between 3 pages. | PASS | Ensures user control and site continuity. |
+| **Responsiveness** | Resized browser to 320px width. | Nav stacks; CSS Grid collapses to 1 column. | PASS | Ensures site integrity on handheld industrial devices. |
+| **External Links** | Clicked NIST/Palo Alto links. | Opens in new tab via `target="_blank"`. | PASS | Prevents user from losing their place on the Hub. |
+| **W3C Cleanliness** | Re-validated after CSS Grid update. | 0 Errors in HTML/CSS. | PASS | Demonstrates code craftsmanship. |
