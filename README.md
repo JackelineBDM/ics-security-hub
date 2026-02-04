@@ -103,6 +103,8 @@ This project followed an iterative development process over two weeks:
 * **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
 * **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
 
+ ## Version Control Process
+The development of this project utilized Git and GitHub with a strategy of small, descriptive, and feature-specific commits. This approach was chosen to ensure full traceability of the iterative design process, allowing for easy rollbacks and a clear audit trail of implementation choices (e.g., the migration from inline styles to CSS Grid).
 ---
 
 ## Recent Updates & Bug Fixes
@@ -113,3 +115,11 @@ This project followed an iterative development process over two weeks:
 * **Tables:** Implemented responsive CSS styling for the Threats table to improve readability on mobile.
 * **Code Craftsmanship:** Refactored all HTML files to remove inline styles, moving them to centralized CSS classes for better maintainability and separation of concerns.
 * **Advanced Layout:** Implemented CSS Grid on the Architecture page to enhance content structure and ensure professional responsiveness across devices.
+
+* **Bug Evaluation:** Following a final manual and automated audit, no remaining bugs were identified. The choice of a static architecture was justified as it inherently minimizes runtime logic issues.
+
+## Version Control Process
+The development of this project utilized Git and GitHub with a strategy of small, descriptive commits (e.g., 'Implemented CSS Grid', 'Refactored Semantic HTML'). This approach was chosen to ensure full traceability of the iterative design process, allowing for a clear audit trail of all architectural implementation choices.
+
+## Final Bug Evaluation
+Following a comprehensive final manual and automated audit (Google Lighthouse & W3C Validators), no remaining bugs were identified. The choice of a static site architecture was strategically justified as it inherently minimizes the attack surface and eliminates common runtime logic vulnerabilities found in dynamic OT dashboards.
