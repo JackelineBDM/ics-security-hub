@@ -1,15 +1,13 @@
-# ICS Security Hub 
-
+# ICS Security Hub
 A professional web resource dedicated to the security and architecture of Industrial Control Systems (ICS).
 
 **Live Site:** [View Project Here](https://jackelinebdm.github.io/ics-security-hub/)
 
 ## Responsive Design Preview
 The ICS Security Hub is designed to be fully responsive across all modern devices.
-
 ![Website Mockup](./images/website_mockup.png)
-## Technical Quality Scorecard (Google Lighthouse)
 
+## Technical Quality Scorecard (Google Lighthouse)
 | Category | Score | Status |
 | :--- | :--- | :--- |
 | **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
@@ -20,7 +18,6 @@ The ICS Security Hub is designed to be fully responsive across all modern device
 ---
 
 ## UX (The 5 Planes)
-
 ### 1. Strategy Plane
 **Goal:** To provide a professional web resource for ICS security professionals to understand the Purdue Model and OT protection.
 - **User Needs:** Quick access to security standards (NIST) and architectural models.
@@ -51,7 +48,6 @@ I used Figma to design mobile-first layouts, ensuring technical diagrams remain 
 
 ## Design Justifications & Rationale
 To achieve a "publishable" professional quality, specific design choices were made and justified:
-
 * **Advanced Layout (CSS Grid):** I implemented **CSS Grid** for the Purdue Model lists on the Architecture page. This provides a robust, two-column hierarchy on desktop that automatically stacks on mobile, ensuring a seamless user experience for engineers on the factory floor.
 * **Color Palette:** The dark theme (#00274c) and high-contrast gold (#ffcb05) were chosen to ensure readability in low-light industrial environments. This is justified by the 100% Accessibility score.
 * **Separation of Concerns:** All inline styles were refactored into dedicated CSS classes (e.g., `.info-box`, `.sl-box`). This ensures the code is maintainable, scalable, and follows professional "Clean Code" standards.
@@ -73,9 +69,7 @@ To achieve a "publishable" professional quality, specific design choices were ma
 ---
 
 ## Testing
-
 I have performed rigorous manual and automated testing to ensure the ICS Security Hub is fully functional and compliant with W3C standards.
-
 * **Automated Testing:** The site achieves 100% scores across all Google Lighthouse categories.
 * **Validation:** All HTML and CSS files have been validated through the W3C Nu HTML Checker and Jigsaw Validator with zero errors.
 * **Manual Testing:** Verified all navigation links, external resource links, and responsive layouts on multiple devices.
@@ -90,6 +84,7 @@ As a static site, runtime errors are eliminated. However, potential user/technic
 > For the full testing report, including all validator screenshots and detailed manual test cases, please refer to the **[TESTING.md](TESTING.md)** file.
 
 ---
+
 ## Full Development Lifecycle
 This project followed an iterative development process over two weeks:
 1. **Strategy:** Defined user stories for Plant Managers and Security Engineers based on NIST standards.
@@ -103,8 +98,6 @@ This project followed an iterative development process over two weeks:
 * **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
 * **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
 
- ## Version Control Process
-The development of this project utilized Git and GitHub with a strategy of small, descriptive, and feature-specific commits. This approach was chosen to ensure full traceability of the iterative design process, allowing for easy rollbacks and a clear audit trail of implementation choices (e.g., the migration from inline styles to CSS Grid).
 ---
 
 ## Recent Updates & Bug Fixes
@@ -116,10 +109,8 @@ The development of this project utilized Git and GitHub with a strategy of small
 * **Code Craftsmanship:** Refactored all HTML files to remove inline styles, moving them to centralized CSS classes for better maintainability and separation of concerns.
 * **Advanced Layout:** Implemented CSS Grid on the Architecture page to enhance content structure and ensure professional responsiveness across devices.
 
-* **Bug Evaluation:** Following a final manual and automated audit, no remaining bugs were identified. The choice of a static architecture was justified as it inherently minimizes runtime logic issues.
-
 ## Version Control Process
-The development of this project utilized Git and GitHub with a strategy of small, descriptive commits (e.g., 'Implemented CSS Grid', 'Refactored Semantic HTML'). This approach was chosen to ensure full traceability of the iterative design process, allowing for a clear audit trail of all architectural implementation choices.
+The development of this project utilized Git and GitHub with a strategy of small, descriptive commits. This approach ensures full traceability of the iterative design process, allowing for a clear audit trail of implementation choices.
 
 ## Final Bug Evaluation
-Following a comprehensive final manual and automated audit (Google Lighthouse & W3C Validators), no remaining bugs were identified. The choice of a static site architecture was strategically justified as it inherently minimizes the attack surface and eliminates common runtime logic vulnerabilities found in dynamic OT dashboards.
+Following a comprehensive final manual and automated audit (Google Lighthouse & W3C Validators), no remaining bugs were identified. The choice of a static architecture was strategically justified to minimize the attack surface of this security tool.
