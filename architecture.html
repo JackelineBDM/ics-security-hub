@@ -6,6 +6,23 @@
     <title>ICS Security Hub | Architecture</title>
     <meta name="description" content="Explore the Purdue Model architecture and implementation of IEC 62443 security zones.">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+    .filter-buttons button {
+        margin: 5px;
+        padding: 10px 15px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+    .filter-buttons button.active,
+    .filter-buttons button:hover {
+        background-color: #0a0;
+    }
+</style>
 </head>
 <body>
     <header>
@@ -22,23 +39,30 @@
     <main>
         <section>
             <h2>The Purdue Model Architecture</h2>
+
+            <div class="filter-buttons" style="margin: 20px 0; text-align: center;">
+                <button class="level-btn" data-level="all" onclick="resetFilter()">All Levels</button>
+                <button class="level-btn" data-level="5" onclick="filterLevel('5')">Level 4 & 5</button>
+                <button class="level-btn" data-level="3" onclick="filterLevel('3')">Level 3</button>
+                <button class="level-btn" data-level="2" onclick="filterLevel('2')">Level 2</button>
+                <button class="level-btn" data-level="1" onclick="filterLevel('1')">Level 0-1</button>
+            </div>
+            
             <p>The Purdue Model is the industry standard for segmenting Industrial Control Systems (ICS) from corporate IT networks.</p>
             
             <dl>
-                <dt>Level 4 & 5: Enterprise Network</dt>
-                <dd>The corporate layer where business functions like email and ERP systems reside.</dd>
+                <dt class="threat-card" data-level="5">Level 4 & 5: Enterprise Network</dt>
+                <dd class="threat-card" data-level="5">The corporate layer where business functions like email and ERP systems reside.</dd>
+                
+                <dt class="threat-card" data-level="3">Level 3: Operations Systems</dt>
+                <dd class="threat-card" data-level="3">Site-wide control systems, including HMI and data historians.</dd>
 
-                <dt>Level 3.5: Industrial DMZ (IDMZ)</dt>
-                <dd>A critical buffer zone that prevents direct communication between enterprise and production.</dd>
+                <dt class="threat-card" data-level="2">Level 2: Control Systems</dt>
+                <dd class="threat-card" data-level="2">Local supervisory controls and engineering workstations.</dd>
 
-                <dt>Level 3: Operations Systems</dt>
-                <dd>Site-wide control systems, including HMI and data historians.</dd>
+                <dt class="threat-card" data-level="1">Level 0-1: Field Zone</dt>
+                <dd class="threat-card" data-level="1">The physical equipment, including sensors, actuators, and PLCs.</dd>
 
-                <dt>Level 2: Control Systems</dt>
-                <dd>Local supervisory controls and engineering workstations.</dd>
-
-                <dt>Level 0-1: Field Zone</dt>
-                <dd>The physical equipment, including sensors, actuators, and PLCs.</dd>
             </dl>
 
             <section class="info-box">
@@ -54,5 +78,6 @@
         <p>&copy; 2026 Jackeline Brooks Marcano | PI: E3413858</p>
         <p><em>Academic Disclaimer: This website is a baseline prototype for the TM470 Computing and IT Project (Cyber Security Route).</em></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
