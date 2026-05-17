@@ -4,47 +4,41 @@ A professional web resource dedicated to the security and architecture of Indust
 **Live Site:** [View Project Here](https://jackelinebdm.github.io/ics-security-hub/)
 
 ## Responsive Design Preview
-The ICS Security Hub is designed to be fully responsive across all modern devices.
-![Website Mockup](./images/website_mockup.png)
+The ICS Security Hub is designed to be fully responsive across all modern devices. 
 
 ## Technical Quality Scorecard (Google Lighthouse)
-| Category | Score | Status |
-| :--- | :--- | :--- |
-| **Accessibility** | ![100%](https://img.shields.io/badge/Accessibility-100%25-brightgreen) | Pass |
-| **Best Practices** | ![100%](https://img.shields.io/badge/Best_Practices-100%25-brightgreen) | Pass |
-| **Performance** | ![100%](https://img.shields.io/badge/Performance-100%25-brightgreen) | Pass |
-| **SEO** | ![100%](https://img.shields.io/badge/SEO-100%25-brightgreen) | Pass |
-
----
+Category | Score | Status
+--- | --- | ---
+Accessibility | Pass | Verified
+Best Practices | Pass | Verified
+Performance | Pass | Verified
+SEO | Pass | Verified
 
 ## UX (The 5 Planes)
 ### 1. Strategy Plane
-**Goal:** To provide a professional web resource for ICS security professionals to understand the Purdue Model and OT protection.
+- **Goal:** To provide a professional web resource for ICS security professionals to understand the Purdue Model and OT protection.
 - **User Needs:** Quick access to security standards (NIST) and architectural models.
 - **Business Goal:** Build a high-performance, accessible information hub.
 
 ### 2. Scope Plane
-**Features Included:**
-- 3-Page Structure (Home, Architecture, Threats).
-- Purdue Model Reference Gallery.
-- Responsive Navigation Bar.
+- **Features Included:**
+  - 3-Page Structure (Home, Architecture, Threats).
+  - Purdue Model Reference Gallery.
+  - Responsive Navigation Bar.
 
 ### 3. Structure Plane
-**Information Architecture:**
-- **Level 1:** Home (Executive overview of ICS security).
-- **Level 2:** Architecture (Deep dive into the Purdue Model).
-- **Level 3:** Threats (Analysis of common attack vectors).
+- **Information Architecture:**
+  - **Level 1:** Home (Executive overview of ICS security).
+  - **Level 2:** Architecture (Deep dive into the Purdue Model).
+  - **Level 3:** Threats (Analysis of common attack vectors).
 
 ### 4. Skeleton Plane
-**Wireframes:**
-I used Figma to design mobile-first layouts, ensuring technical diagrams remain clear on small screens.
-![Project Wireframes](./images/wireframes.png)
+- **Wireframes:** I used Figma to design mobile-first layouts, ensuring technical diagrams remain clear on small screens. 
 
 ### 5. Surface Plane
-**Visual Design:**
-- **Colors:** Professional dark-theme palette for high contrast.
-- **Typography:** Clean sans-serif fonts for technical clarity.
-- **Key Diagram:** ![Purdue Model Architecture](./images/Purdue_Model_Reference.png)
+- **Visual Design:**
+  - **Colors:** Professional dark-theme palette for high contrast.
+  - **Typography:** Clean sans-serif fonts for technical clarity.
 
 ## Design Justifications & Rationale
 To achieve a "publishable" professional quality, specific design choices were made and justified:
@@ -53,22 +47,59 @@ To achieve a "publishable" professional quality, specific design choices were ma
 * **Separation of Concerns:** All inline styles were refactored into dedicated CSS classes (e.g., `.info-box`, `.sl-box`). This ensures the code is maintainable, scalable, and follows professional "Clean Code" standards.
 * **Static Architecture:** A static site was intentionally chosen to ensure a "zero-attack surface." In cybersecurity, reference tools should not introduce new vulnerabilities to an OT environment.
 
----
+## User Stories & MoSCoW Requirements
+### Must Have
+* **User Story 1: Core Filtering**
+  * **As a** non-technical plant manager,  
+  * **I want to** click on a specific Purdue Model level button,  
+  * **So that** I can instantly see the exact IEC 62443 security guidance for that level without reading a 300-page document.
+  * *Acceptance Criteria:* Clicking "Level 0-1" must dynamically hide unrelated levels and show only Field Zone guidance within 1 second.
+* **User Story 2: Threat Mapping**
+  * **As an** industrial operations supervisor,  
+  * **I want to** review clear, plain-language threat cards,  
+  * **So that** I can understand how common cyber threats (like Stuxnet or Man-in-the-Middle) apply to my plant floor.
+  * *Acceptance Criteria:* The threats page must list distinct, categorized threat vectors with a direct reference to the corresponding NIST SP 800-82 control.
+* **User Story 3: Clean Navigation**
+  * **As a** busy SME business owner,  
+  * **I want to** move between the Homepage, Architecture page, and Threats page via a persistent navigation menu,  
+  * **So that** I do not lose my place while assessing different parts of my infrastructure.
+  * *Acceptance Criteria:* The navigation bar must be present on all pages, and all internal links must resolve correctly without 404 errors.
 
-## User Stories
-* **As a Plant Manager:** I want to see a high-level visual of network layers to understand where security investments are required.
-* **As a Security Engineer:** I want a mobile-responsive resource to verify security best practices while on the factory floor.
+### Should Have
+* **User Story 4: Responsive Layout**
+  * **As a** field engineer walking the plant floor,  
+  * **I want to** open the Hub on my smartphone,  
+  * **So that** I can verify security requirements directly next to the physical equipment.
+  * *Acceptance Criteria:* The UI layout must dynamically stack items gracefully down to a 320px viewport width without breaking text or cutting off buttons.
+* **User Story 5: High-Contrast Interface**
+  * **As a** control room operator working a night shift,  
+  * **I want** a high-contrast dark theme layout,  
+  * **So that** I can read the security requirements easily in a low-light, high-glare industrial environment.
+  * *Acceptance Criteria:* Text element contrast ratios must meet WCAG 2.1 AA standards against the dark background to ensure readability.
+* **User Story 6: Explicit Liability Disclaimers**
+  * **As a** corporate risk officer,  
+  * **I want to** see clear boundaries showing that this tool is for reference only,  
+  * **So that** operators do not use it as a substitute for official compliance sign-offs.
+  * *Acceptance Criteria:* Every page footer must display a permanent, clear legal disclaimer stating the tool is a decision-support aid.
 
----
+### Could Have
+* **User Story 7: Case Study Learnings**
+  * **As a** trainee OT security analyst,  
+  * **I want to** read an interactive breakdown of historical attacks like Stuxnet,  
+  * **So that** I can visualize real-world consequences of poor network segmentation.
+  * *Acceptance Criteria:* The Stuxnet section must clearly isolate the specific Purdue levels targeted during the incident.
+* **User Story 8: Direct Standards Access**
+  * **As an** external cybersecurity auditor,  
+  * **I want** direct links to official NIST and ENISA documentation,  
+  * **So that** I can cross-verify the Hub's simplified summaries against the source materials.
+  * *Acceptance Criteria:* Links to source documentation must open in a new browser tab (`target="_blank"`) to keep the application active.
 
 ## Technologies and Deployment
 * **Languages:** HTML5, CSS3 (including Advanced CSS Grid and Media Queries).
-* **Tools:** VS Code, GitHub Desktop, Figma, Google Lighthouse, [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+* **Tools:** VS Code, GitHub Desktop, Figma, Google Lighthouse, W3C CSS Validator.
 * **Hosting:** Deployed via GitHub Pages.
 
----
-
-## Testing
+## Testing Overview
 I have performed rigorous manual and automated testing to ensure the ICS Security Hub is fully functional and compliant with W3C standards.
 * **Automated Testing:** The site achieves 100% scores across all Google Lighthouse categories.
 * **Validation:** All HTML and CSS files have been validated through the W3C Nu HTML Checker and Jigsaw Validator with zero errors.
@@ -83,8 +114,6 @@ As a static site, runtime errors are eliminated. However, potential user/technic
 > [!IMPORTANT]
 > For the full testing report, including all validator screenshots and detailed manual test cases, please refer to the **[TESTING.md](TESTING.md)** file.
 
----
-
 ## Full Development Lifecycle
 This project followed an iterative development process over two weeks:
 1. **Strategy:** Defined user stories for Plant Managers and Security Engineers based on NIST standards.
@@ -96,9 +125,7 @@ This project followed an iterative development process over two weeks:
 * **Media:** Purdue Model diagram adapted from [Palo Alto Networks](https://www.paloaltonetworks.com/cyberpedia/what-is-the-purdue-model-for-ics-security).
 * **Tools:** [Website Mockup Generator](https://websitemockupgenerator.com/) was used to create the responsive design preview.
 * **Technical Content:** Standards derived from [NIST SP 800-82r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf) and [NIST SP 1800-10](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-10.pdf).
-* **Educational Context:** Developed as part of the [Code Institute](https://codeinstitute.net/) Milestone 1 Project.
-
----
+* **Educational Context:** Developed as part of the Code Institute Milestone 1 Project.
 
 ## Recent Updates & Bug Fixes
 * **Mobile UI:** Fixed navigation bar overlapping content by adjusting CSS z-index.

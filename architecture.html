@@ -6,23 +6,6 @@
     <title>ICS Security Hub | Architecture</title>
     <meta name="description" content="Explore the Purdue Model architecture and implementation of IEC 62443 security zones.">
     <link rel="stylesheet" href="style.css">
-
-    <style>
-    .filter-buttons button {
-        margin: 5px;
-        padding: 10px 15px;
-        font-size: 1rem;
-        border: none;
-        border-radius: 5px;
-        background-color: #333;
-        color: white;
-        cursor: pointer;
-    }
-    .filter-buttons button.active,
-    .filter-buttons button:hover {
-        background-color: #0a0;
-    }
-</style>
 </head>
 <body>
     <header>
@@ -40,7 +23,7 @@
         <section>
             <h2>The Purdue Model Architecture</h2>
 
-            <div class="filter-buttons" style="margin: 20px 0; text-align: center;">
+            <div class="filter-buttons">
                 <button class="level-btn" data-level="all" onclick="resetFilter()">All Levels</button>
                 <button class="level-btn" data-level="5" onclick="filterLevel('5')">Level 4 & 5</button>
                 <button class="level-btn" data-level="3" onclick="filterLevel('3')">Level 3</button>
