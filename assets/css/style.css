@@ -200,3 +200,19 @@ footer {
 .filter-buttons button:hover {
     background-color: #0a0;
 }
+/* Quality Assurance Metrics - moved from inline styles (P3.6) */
+.qa-metrics {
+    margin-top: 30px;
+}
+
+.validation-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.validation-images img {
+    max-width: 45%;
+}
